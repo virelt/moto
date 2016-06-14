@@ -1,0 +1,469 @@
+doctype html5
+html(lang="ru")
+head
+	meta(charset="UTF-8")
+	meta(name="viewport", content="width=device-width, initial-scale=1")
+	title Мото
+	link(rel="stylesheet", href="css/main.css")
+body.page
+	.wrapper
+		.header
+			.container
+				.nav
+					ul.menu.menu--top
+						li.menu__item.menu--top__item
+							a(href="#") О компании
+						li.menu__item.menu--top__item
+							a(href="#") Доставка и оплата
+						li.menu__item.menu--top__item
+							a(href="#") Покупателям
+						li.menu__item.menu--top__item
+							a(href="#") Оптовикам
+						li.menu__item.menu--top__item
+							a(href="#") Франшиза
+						li.menu__item.menu--top__item.skew
+							a(href="#") Услуги
+					ul.auth
+						a.auth__item(href="#") Вход
+						|  / 
+						a.auth__item(href="#") Регистрация
+			.container
+				.row
+					.city.col-md-3.col-md-offset-3
+						a(href="#") Самара<br>
+						span Доставим 22.04.2016 г. (Пятница)...
+					.call.col-md-3
+						a(href="callto:88005552525") 8 800 555 25 25<br>
+						span (Звонок по РФ бесплатный)
+					.cart.col-md-3
+						a.cart__icon(href="")
+							img(src="img/cart.png", alt="")
+							span.quantity.skew 10
+						a.title(href="#") 
+							span.name Корзина 
+							span.product (23 399 рублей)<br>
+						a.tracking(href="#") Отслеживание заказа
+				.row.options
+					.col-md-9.col-md-offset-3
+						form.search
+							input.form-control(type="text", placeholder="Поиск по сайту")
+							button.btn.btn-default.skew(type="submit")
+								i.fa.fa-search
+						a.btn.btn-default.skew(href="#") Мой гараж
+						a.btn.btn-default.skew(href="#") Сравнение (10)
+			.navigation
+				.container
+					.logo.logo--main
+						a(href="/")
+							img(src="img/logo.png", alt="")
+					ul.menu.menu--catalog
+						li.menu__item.menu--catalog__item.skew.skew--yellow
+							a(href="#") Бренды
+						li.menu__item.menu--catalog__item
+							a(href="#") Мото техника
+						li.menu__item.menu--catalog__item
+							a(href="#") Экипировка
+						li.menu__item.menu--catalog__item
+							a(href="#") Запчасти
+						li.menu__item.menu--catalog__item
+							a(href="#") Масла и расходники
+						li.menu__item.menu--catalog__item
+							a(href="#") Наклейки
+						li.menu__item.menu--catalog__item
+							a(href="#") Моторезина
+		.content.container
+			.slider
+				.row
+					.col-md-9
+						ul.bxslider
+							li.slider__item
+								a(href="#")
+									img(src="img/slider1.png", alt="")
+					.col-md-3
+						.slider__item.slider__item--small
+							a(href="#")
+								img(src="img/banner1.png", alt="")
+						.slider__item.slider__item--small
+							a(href="#")
+								img(src="img/banner1.png", alt="")
+				.box
+					span
+					span
+					span
+					span
+					span
+					span
+					span
+					span
+					span
+					span
+					span
+					span
+					span
+					span
+					span
+					span
+					span
+					span
+					span
+					span
+					span
+					span
+					span
+					span
+					span
+					span
+					span
+					span
+					span
+					span
+					span
+					span
+			.tags
+				ul.menu.menu--tags
+					li.menu__item.menu--tags__item
+						a(href="#")
+							img.icon(src="img/star.png", alt="")
+							span.title Более 700 отзывов довольных клиентов
+					li.menu__item.menu--tags__item
+						a(href="#")
+							img.icon(src="img/check.png", alt="")
+							span.title Большой ассортимент товаров в наличии
+					li.menu__item.menu--tags__item
+						a(href="#")
+							img.icon(src="img/marker.png", alt="")
+							span.title Доставка по всей России
+					li.menu__item.menu--tags__item
+						a(href="#")
+							img.icon(src="img/wallet.png", alt="")
+							span.title Безопасность платежей
+					li.menu__item.menu--tags__item
+						a(href="#")
+							img.icon(src="img/arrows.png", alt="")
+							span.title Гарантия обмена или возврата
+			.banner
+				.row
+					.banner__item.col-md-3
+						a(href="#")
+							img(src="img/adv1.png", alt="")
+					.banner__item.col-md-3
+						a(href="#")
+							img(src="img/adv2.png", alt="")
+					.banner__item.col-md-3
+						a(href="#")
+							img(src="img/adv3.png", alt="")
+					.banner__item.col-md-3
+						a(href="#")
+							img(src="img/adv4.png", alt="")
+				.box
+					span
+					span
+					span
+					span
+					span
+					span
+					span
+					span
+					span
+					span
+					span
+					span
+					span
+					span
+					span
+					span
+					span
+					span
+					span
+					span
+					span
+					span
+					span
+					span
+					span
+					span
+					span
+					span
+					span
+					span
+					span
+					span
+			.catalog
+				ul.catalog__nav
+					li
+						a(href="#") Товары по акциям
+					li.skew
+						a(href="#") Лидеры продаж
+					li
+						a(href="#") Новинки
+				.row.catalog__wrapper
+					.catalog__item.col-md-3
+						.rating
+							.rating__wrapper
+								i.fa.fa-star
+								i.fa.fa-star
+								i.fa.fa-star
+								i.fa.fa-star
+								i.fa.fa-star-o
+							span.reviews (15 отзывов)
+						.preview__image
+							a(href="#")
+								img(src="img/product1.jpg", alt="")
+						.option
+							i.fa.fa-check
+							| В наличии
+						.name
+							a(href="#") Мотокроссовки Alpinestars Stadium Shoes 
+						.price
+							.price__item.price--old 
+								strike 45 000 ₽
+							.price__item.price--current
+								strong 199 450 ₽
+					.catalog__item.col-md-3
+						.rating
+							.rating__wrapper
+								i.fa.fa-star
+								i.fa.fa-star
+								i.fa.fa-star
+								i.fa.fa-star
+								i.fa.fa-star-o
+							span.reviews (15 отзывов)
+						.preview__image
+							a(href="#")
+								img(src="img/product2.jpg", alt="")
+						.option
+							i.fa.fa-check
+							| В наличии
+						.name
+							a(href="#") Мотокроссовки Alpinestars Stadium Shoes 
+						.price
+							.price__item.price--old 
+								strike 45 000 ₽
+							.price__item.price--current
+								strong 199 450 ₽
+					.catalog__item.col-md-3
+						.rating
+							.rating__wrapper
+								i.fa.fa-star
+								i.fa.fa-star
+								i.fa.fa-star
+								i.fa.fa-star
+								i.fa.fa-star-o
+							span.reviews (15 отзывов)
+						.preview__image
+							a(href="#")
+								img(src="img/product3.jpg", alt="")
+						.option
+							i.fa.fa-check
+							| В наличии
+						.name
+							a(href="#") Мотокроссовки Alpinestars Stadium Shoes 
+						.price
+							.price__item.price--old 
+								strike 45 000 ₽
+							.price__item.price--current
+								strong 199 450 ₽
+					.catalog__item.col-md-3
+						.rating
+							.rating__wrapper
+								i.fa.fa-star
+								i.fa.fa-star
+								i.fa.fa-star
+								i.fa.fa-star
+								i.fa.fa-star-o
+							span.reviews (15 отзывов)
+						.preview__image
+							a(href="#")
+								img(src="img/product4.jpg", alt="")
+						.option
+							i.fa.fa-check
+							| В наличии
+						.name
+							a(href="#") Мотокроссовки Alpinestars Stadium Shoes 
+						.price
+							.price__item.price--old 
+								strike 45 000 ₽
+							.price__item.price--current
+								strong 199 450 ₽
+				.catalog__all
+					a.btn.btn-default.skew(href="#") Посмотреть все
+			section.news.clearfix
+				h2 Наши новости
+				a.news__all(href="#") Все новости
+				.row.news__wrapper
+					.col-md-4.news__item
+						a(href="#")
+							img.preview-picture(src="img/news1.jpg", alt="Поступление Crazy Iron")
+						.date 19 апреля.2016
+						a(href="#")
+							.title Поступление Crazy Iron
+						.preview-text К сезону мы пополнили склад слайдерами и дугами Crazy Iron на большинство популярных моделей мотоциклов.
+					.col-md-4.news__item
+						a(href="#")
+							img.preview-picture(src="img/news2.jpg", alt="Поступление Crazy Iron")
+						.date 19 апреля.2016
+						a(href="#")
+							.title Поступление Crazy Iron
+						.preview-text К сезону мы пополнили склад слайдерами и дугами Crazy Iron на большинство популярных моделей мотоциклов.
+					.col-md-4.news__item
+						a(href="#")
+							img.preview-picture(src="img/news3.jpg", alt="Поступление Crazy Iron")
+						.date 19 апреля.2016
+						a(href="#")
+							.title Поступление Crazy Iron
+						.preview-text К сезону мы пополнили склад слайдерами и дугами Crazy Iron на большинство популярных моделей мотоциклов.
+			section.review.clearfix
+				h2 Тесты и обзоры
+				a.review__all(href="#") Посмотреть все
+				.row.review__wrapper
+					.review__item.col-md-6
+						a(href="#")
+							img.preview-picture(src="img/review.jpg", alt="Полевые испытания – Перчатки Cabela's Power Stretch")
+						.date 16 февраля 2016
+						a(href="#")
+							.title Полевые испытания – Перчатки Cabela's Power Stretch
+						.preview-text Новая пара перчаток – это всегда приятно, хотя и их наличие не всегда приводит нас в восторг.
+					.review__item.col-md-6
+						a(href="#")
+							img.preview-picture(src="img/review.jpg", alt="Полевые испытания – Перчатки Cabela's Power Stretch")
+						.date 16 февраля 2016
+						a(href="#")
+							.title Полевые испытания – Перчатки Cabela's Power Stretch
+						.preview-text Новая пара перчаток – это всегда приятно, хотя и их наличие не всегда приводит нас в восторг.
+					.review__item.col-md-6
+						a(href="#")
+							img.preview-picture(src="img/review.jpg", alt="Полевые испытания – Перчатки Cabela's Power Stretch")
+						.date 16 февраля 2016
+						a(href="#")
+							.title Полевые испытания – Перчатки Cabela's Power Stretch
+						.preview-text Новая пара перчаток – это всегда приятно, хотя и их наличие не всегда приводит нас в восторг.
+					.review__item.col-md-6
+						a(href="#")
+							img.preview-picture(src="img/review.jpg", alt="Полевые испытания – Перчатки Cabela's Power Stretch")
+						.date 16 февраля 2016
+						a(href="#")
+							.title Полевые испытания – Перчатки Cabela's Power Stretch
+						.preview-text Новая пара перчаток – это всегда приятно, хотя и их наличие не всегда приводит нас в восторг.
+			section.brand.clearfix
+				h2 Бренды
+				a.brand__all(href="#") Все бренды
+				.row.brand__wrapper
+					.brand__item.col-md-2
+						a(href="#")
+							img(src="img/brand1.png", alt="")
+					.brand__item.col-md-2
+						a(href="#")
+							img(src="img/brand2.png", alt="")
+					.brand__item.col-md-2
+						a(href="#")
+							img(src="img/brand3.png", alt="")
+					.brand__item.col-md-2
+						a(href="#")
+							img(src="img/brand4.png", alt="")
+					.brand__item.col-md-2
+						a(href="#")
+							img(src="img/brand5.png", alt="")
+					.brand__item.col-md-2
+						a(href="#")
+							img(src="img/brand6.png", alt="")
+			.subscribe
+				.row
+					.col-md-6
+						span.subscribe__text Будьте в курсе всех наших акций, распродаж и новых поступлений
+					.col-md-6
+						form.subscribe__form
+							.row.form-group
+								input.form-control(type="text", placeholder="Ваш e-mail")
+								input.btn.btn-default(type="submit", value="Подписаться")
+		.footer.container
+			.row
+				.footer__menu.col-md-9
+					.row
+						.col-md-4
+							.title О компании
+							ul.menu.menu--footer
+								li.menu__item.menu--footer__item
+									a(href="#") О нас
+								li.menu__item.menu--footer__item
+									a(href="#") Новости
+								li.menu__item.menu--footer__item
+									a(href="#") Сотрудничество
+								li.menu__item.menu--footer__item
+									a(href="#") Отзывы покупателей
+								li.menu__item.menu--footer__item
+									a(href="#") Контакты и реквизиты
+						.col-md-4
+							.title С нами выгодно
+							ul.menu.menu--footer
+								li.menu__item.menu--footer__item
+									a(href="#") Спецпредложения
+								li.menu__item.menu--footer__item
+									a(href="#") Товары по акции
+								li.menu__item.menu--footer__item
+									a(href="#") Новинки
+								li.menu__item.menu--footer__item
+									a(href="#") Лидеры продаж
+								li.menu__item.menu--footer__item
+									a(href="#") Наши услуги
+						.col-md-4
+							.title Покупателям
+							ul.menu.menu--footer
+								li.menu__item.menu--footer__item
+									a(href="#") Как сделать заказ
+								li.menu__item.menu--footer__item
+									a(href="#") Статус заказа
+								li.menu__item.menu--footer__item
+									a(href="#") Гарантия товаров
+								li.menu__item.menu--footer__item
+									a(href="#") Обмен и возврат
+								li.menu__item.menu--footer__item
+									a(href="#") Покупка в кредит
+						.col-md-4
+							.title Доставка и оплата
+							ul.menu.menu--footer
+								li.menu__item.menu--footer__item
+									a(href="#") Доставка по России
+								li.menu__item.menu--footer__item
+									a(href="#") Покупка в кредит
+								li.menu__item.menu--footer__item
+									a(href="#") Оплата наличными
+								li.menu__item.menu--footer__item
+									a(href="#") Оплата пластиковыми картами
+								li.menu__item.menu--footer__item
+									a(href="#") Безналичный перевод
+						.col-md-4
+							.title Публикации
+							ul.menu.menu--footer
+								li.menu__item.menu--footer__item
+									a(href="#") Новости компании
+								li.menu__item.menu--footer__item
+									a(href="#") Тесты и обзоры
+						.col-md-4
+							.title Помощь
+							ul.menu.menu--footer
+								li.menu__item.menu--footer__item
+									a(href="#") Вопросы и ответы
+								li.menu__item.menu--footer__item
+									a(href="#") Техническая поддержка
+								li.menu__item.menu--footer__item
+									a(href="#") Обратная связь
+				.footer__extra.col-md-3
+					.social
+						.title Мы в социальных сетях
+						a.social__item(href="#")
+							img(src="img/vk.png", alt="")
+						a.social__item(href="#")
+							img(src="img/tw.png", alt="")
+						a.social__item(href="#")
+							img(src="img/ok.png", alt="")
+						a.social__item(href="#")
+							img(src="img/fb.png", alt="")
+					.payment
+						.title Оплата
+						a.payment__item(href="#")
+							img(src="img/mastercard.png", alt="")
+						a.payment__item(href="#")
+							img(src="img/paypal.png", alt="")
+						a.payment__item(href="#")
+							img(src="img/visa.png", alt="")
+	script(src="js/main.js")
